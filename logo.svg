@@ -1,0 +1,31 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#031621"/>
+      <stop offset="100%" stop-color="#071a2f"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f7d84c"/>
+      <stop offset="35%" stop-color="#2a6ae9"/>
+      <stop offset="100%" stop-color="#d52d1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="300" r="210" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="2"/>
+  <circle cx="400" cy="300" r="170" fill="none" stroke="rgba(255,255,255,.05)" stroke-width="2"/>
+  <g opacity="0.95">
+    <path d="M250 180 L350 180 L350 240 L300 240 L300 300 L250 300 Z" fill="#f0c800"/>
+    <path d="M350 180 L450 180 L450 300 L400 300 L400 240 L350 240 Z" fill="#2f6fe0"/>
+    <path d="M450 180 L550 180 L550 300 L500 300 L500 240 L450 240 Z" fill="#c83020"/>
+  </g>
+  <g>
+    <path d="M295 230 L505 230 L505 265 L295 265 Z" fill="rgba(255,255,255,.9)"/>
+    <path d="M305 265 L495 265 L495 335 L305 335 Z" fill="rgba(255,255,255,.08)"/>
+    <path d="M360 220 L440 220 L440 265 L360 265 Z" fill="#ffffff" opacity="0.9"/>
+  </g>
+  <circle cx="400" cy="300" r="118" fill="none" stroke="url(#ring)" stroke-width="12"/>
+  <path d="M400 205 L430 300 L400 395 L370 300 Z" fill="#f7d84c" opacity="0.88"/>
+  <path d="M400 205 L470 300 L400 395 L330 300 Z" fill="rgba(47,111,224,0.55)"/>
+  <path d="M400 205 L500 300 L400 395 L300 300 Z" fill="rgba(200,48,32,0.35)"/>
+  <circle cx="400" cy="300" r="56" fill="#02131f" stroke="rgba(255,255,255,.18)" stroke-width="3"/>
+</svg>
